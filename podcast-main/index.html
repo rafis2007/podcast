@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pod Play - Episódios em Vídeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Pod Play"> <hi>Pod Play</hi>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#episodes">Episódios</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Bem-vindo ao Pod Play!</h1>
+                <p>Assista aos nossos episódios mais recentes e fique por dentro do que há de melhor no mundo dos jogos.</p>
+            </div>
+        </section>
+        
+        <section id="episodes" class="episodes">
+            <div class="container">
+                <h2>Nos Episódios</h2>
+                
+                <article class="episode">
+                    <h3>EPISÓDIO 1- Inaugurando PODPLAY com Stardew Valley</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MF_gbAVxRhI" title="EPISÓDIO 1- Inaugurando PODPLAY com Stardew Valley" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Nesse episódio, mostramos Stardew Valley e suas principais características.</p>
+                </article>
+                
+                <article class="episode">
+                    <h3>Episódio 2: 1.6 update</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zWpuiCwPkdk?si=0e3zLHRalqCCryzT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </video>
+                    <p>Nesse episodio iremos apresentar os update realizados nesta nova verção</p>
+                </article>
+                
+                <article class="episode">
+                    <h3>Episódio 3: Harvest Moon </h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/o9onBh5TTOI?si=laFlPjb9CS9idlCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </video>
+                    <p>Nesse episodio iremos falar de um outro tipo de simulador de fazenda que se parece com stradwe valley só que um pouco mais antigo.</p>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                 
+                    <div style="text-align: center;">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Play Cast. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
